@@ -1,0 +1,1 @@
+// needed DOM variables

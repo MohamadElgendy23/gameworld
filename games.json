@@ -1,0 +1,95 @@
+{
+    "games": [
+      {
+        "id": "game001",
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "genre": "Action-Adventure",
+        "platforms": ["Nintendo Switch", "Wii U"],
+        "releaseDate": "2017-03-03",
+        "developer": "Nintendo",
+        "publisher": "Nintendo",
+        "rating": {
+          "score": 97,
+          "source": "Metacritic"
+        },
+        "description": "Explore the vast world of Hyrule in this open-world adventure game where you solve puzzles, fight monsters, and uncover secrets.",
+        "tags": ["open-world", "action", "adventure", "fantasy"],
+        "price": 59.99,
+        "availability": "available",
+        "coverImage": "https://example.com/zelda_cover.jpg",
+        "reviews": [
+          {
+            "author": "GameSpot",
+            "rating": 10,
+            "comment": "A masterpiece of open-world design and gameplay."
+          },
+          {
+            "author": "IGN",
+            "rating": 10,
+            "comment": "An essential experience for any gamer."
+          }
+        ]
+      },
+      {
+        "id": "game002",
+        "title": "Cyberpunk 2077",
+        "genre": "RPG",
+        "platforms": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
+        "releaseDate": "2020-12-10",
+        "developer": "CD Projekt Red",
+        "publisher": "CD Projekt",
+        "rating": {
+          "score": 72,
+          "source": "Metacritic"
+        },
+        "description": "A dystopian open-world RPG set in Night City, where players take on the role of V, a mercenary caught in a web of intrigue, high-tech conspiracies, and chaotic battles.",
+        "tags": ["RPG", "open-world", "cyberpunk", "action"],
+        "price": 49.99,
+        "availability": "available",
+        "coverImage": "https://example.com/cyberpunk_cover.jpg",
+        "reviews": [
+          {
+            "author": "The Verge",
+            "rating": 8,
+            "comment": "A visually stunning game that offers an expansive world and deep role-playing elements."
+          },
+          {
+            "author": "Eurogamer",
+            "rating": 7,
+            "comment": "While the world is breathtaking, the game suffers from bugs and technical issues."
+          }
+        ]
+      },
+      {
+        "id": "game003",
+        "title": "Minecraft",
+        "genre": "Sandbox",
+        "platforms": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch", "Mobile"],
+        "releaseDate": "2011-11-18",
+        "developer": "Mojang Studios",
+        "publisher": "Mojang Studios",
+        "rating": {
+          "score": 93,
+          "source": "Metacritic"
+        },
+        "description": "A sandbox game that allows players to build, explore, and survive in a blocky, procedurally generated world. Minecraft is known for its creative freedom and multiplayer options.",
+        "tags": ["sandbox", "survival", "multiplayer", "creative"],
+        "price": 26.95,
+        "availability": "available",
+        "coverImage": "https://example.com/minecraft_cover.jpg",
+        "reviews": [
+          {
+            "author": "Kotaku",
+            "rating": 9,
+            "comment": "Minecraft offers endless creativity and adventure, making it one of the most influential games of all time."
+          },
+          {
+            "author": "PC Gamer",
+            "rating": 9,
+            "comment": "A game that has captivated millions, with no signs of slowing down."
+          }
+        ]
+      }
+    ]
+  }
+  
