@@ -24,23 +24,35 @@ function displayGameCard(game) {
             <div class="card-info">
                 <h2 class="title">${game.title}</h2>
                 <p class="genre">${game.genre}</p>
-                <div class="platforms"></div>
-                <p class="release-date"></p>
+                <div class="platforms">${game.platforms.map((gamePlatform) => {
+                  return <span class="platform">{gamePlatform}</span>;
+                })}</div>
+                <p class="release-date">${game.releaseDate}</p>
                 <div class="company">
-                   <span class="developer"></span> 
-                   <span class="publisher"></span> 
+                   <span class="developer">${game.developer}</span> 
+                   <span class="publisher">${game.publisher}</span> 
                 </div>
                 <div class="rating">
-                    <span class="score"></span>
-                    <span class="source"></span>
+                    <span class="score">${game.rating.score}</span>
+                    <span class="source">${game.rating.source}</span>
                 </div>
             </div>
             <div class="card-body">
-                <p class="description"></p>
-                <div class="tags"></div>
-                <span class="price"></span>
-                <span class="availability"></span>
+                <p class="description">${game.description}</p>
+                <div class="tags">${game.tags.map((tag) => {
+                  return <span class="tag">{tag}</span>;
+                })}</div>
+                <span class="price">${game.price}</span>
+                <span class="${game.availability}">${game.availability}</span>
             </div>
-            <div class="card-reviews"></div>
+            <div class="card-reviews">${game.reviews.map((review) => {
+              return (
+                <div class="review">
+                  <span class="author">{review.author}</span>
+                  <span class="rating">{review.rating}</span>
+                  <p class="comment">{review.comment}</p>
+                </div>
+              );
+            })}</div>
         </div>`;
 }

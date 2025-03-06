@@ -135,7 +135,7 @@
         "description": "A dark fantasy RPG where you play as Geralt of Rivia, a monster hunter searching for his adopted daughter while navigating a morally complex world.",
         "tags": ["RPG", "action", "fantasy", "open-world"],
         "price": 39.99,
-        "availability": "available",
+        "availability": "unavailable",
         "coverImage": "https://example.com/witcher3_cover.jpg",
         "reviews": [
           {
@@ -225,7 +225,7 @@
         "description": "Explore the depths of Hallownest as a silent, mysterious knight in this beautifully hand-drawn Metroidvania-style action game.",
         "tags": ["action", "adventure", "platformer", "indie"],
         "price": 14.99,
-        "availability": "available",
+        "availability": "unavailable",
         "coverImage": "https://example.com/hollow_knight_cover.jpg",
         "reviews": [
           {
@@ -315,7 +315,7 @@
         "description": "Battle to be the last player or team standing in this free-to-play battle royale game, featuring fast-paced action and building mechanics.",
         "tags": ["battle royale", "multiplayer", "action", "free-to-play"],
         "price": 0.00,
-        "availability": "available",
+        "availability": "unavailable",
         "coverImage": "https://example.com/fortnite_cover.jpg",
         "reviews": [
           {
