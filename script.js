@@ -5,7 +5,12 @@ const gameCardsWrapper = document.querySelector(".game-cards-wrapper");
 function initializeApp() {
   gameCardsWrapper.innerHTML = ""; // doesn't allow overflow of games
   fetch("games.json")
-    .then((response) => response.json())
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      return response.json();
+    })
     .then((gamesData) => {
       const gamesArr = gamesData.games;
       gamesArr.map((gameObj) => {
