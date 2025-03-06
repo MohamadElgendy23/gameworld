@@ -89,6 +89,246 @@
             "comment": "A game that has captivated millions, with no signs of slowing down."
           }
         ]
+      }, 
+      {
+        "id": "game004",
+        "title": "Super Mario Odyssey",
+        "genre": "Platformer",
+        "platforms": ["Nintendo Switch"],
+        "releaseDate": "2017-10-27",
+        "developer": "Nintendo",
+        "publisher": "Nintendo",
+        "rating": {
+          "score": 97,
+          "source": "Metacritic"
+        },
+        "description": "Join Mario as he embarks on a globetrotting adventure to rescue Princess Peach and defeat Bowser using his new companion Cappy.",
+        "tags": ["platformer", "adventure", "3D", "action"],
+        "price": 59.99,
+        "availability": "available",
+        "coverImage": "https://example.com/mario_odyssey_cover.jpg",
+        "reviews": [
+          {
+            "author": "GameSpot",
+            "rating": 10,
+            "comment": "A fantastic adventure that redefines the Mario series."
+          },
+          {
+            "author": "IGN",
+            "rating": 9.5,
+            "comment": "One of the most creative and enjoyable games of the year."
+          }
+        ]
+      },
+      {
+        "id": "game005",
+        "title": "The Witcher 3: Wild Hunt",
+        "genre": "RPG",
+        "platforms": ["PlayStation 4", "Xbox One", "PC", "Nintendo Switch"],
+        "releaseDate": "2015-05-19",
+        "developer": "CD Projekt Red",
+        "publisher": "CD Projekt",
+        "rating": {
+          "score": 93,
+          "source": "Metacritic"
+        },
+        "description": "A dark fantasy RPG where you play as Geralt of Rivia, a monster hunter searching for his adopted daughter while navigating a morally complex world.",
+        "tags": ["RPG", "action", "fantasy", "open-world"],
+        "price": 39.99,
+        "availability": "available",
+        "coverImage": "https://example.com/witcher3_cover.jpg",
+        "reviews": [
+          {
+            "author": "GameSpot",
+            "rating": 10,
+            "comment": "A masterpiece in storytelling and world-building."
+          },
+          {
+            "author": "IGN",
+            "rating": 9.7,
+            "comment": "A truly unforgettable experience that is both vast and captivating."
+          }
+        ]
+      },
+      {
+        "id": "game006",
+        "title": "Minecraft",
+        "genre": "Sandbox",
+        "platforms": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+        "releaseDate": "2011-11-18",
+        "developer": "Mojang",
+        "publisher": "Mojang",
+        "rating": {
+          "score": 93,
+          "source": "Metacritic"
+        },
+        "description": "A sandbox game that lets you build, explore, and survive in an infinite world made entirely of blocks.",
+        "tags": ["sandbox", "building", "multiplayer", "survival"],
+        "price": 26.95,
+        "availability": "available",
+        "coverImage": "https://example.com/minecraft_cover.jpg",
+        "reviews": [
+          {
+            "author": "GameSpot",
+            "rating": 10,
+            "comment": "A timeless game that encourages creativity and exploration."
+          },
+          {
+            "author": "IGN",
+            "rating": 9.5,
+            "comment": "Endless fun, solo or with friends."
+          }
+        ]
+      },
+      {
+        "id": "game007",
+        "title": "Red Dead Redemption 2",
+        "genre": "Action-Adventure",
+        "platforms": ["PlayStation 4", "Xbox One", "PC"],
+        "releaseDate": "2018-10-26",
+        "developer": "Rockstar Games",
+        "publisher": "Rockstar Games",
+        "rating": {
+          "score": 97,
+          "source": "Metacritic"
+        },
+        "description": "Step into the boots of Arthur Morgan, an outlaw in the late 1800s, and experience the story of the Van der Linde gang's fall in a beautifully crafted open world.",
+        "tags": ["action", "adventure", "open-world", "western"],
+        "price": 59.99,
+        "availability": "available",
+        "coverImage": "https://example.com/red_dead_redemption2_cover.jpg",
+        "reviews": [
+          {
+            "author": "GameSpot",
+            "rating": 10,
+            "comment": "A triumph in storytelling and world-building."
+          },
+          {
+            "author": "IGN",
+            "rating": 10,
+            "comment": "An unforgettable western adventure with incredible attention to detail."
+          }
+        ]
+      },
+      {
+        "id": "game008",
+        "title": "Hollow Knight",
+        "genre": "Metroidvania",
+        "platforms": ["PC", "Nintendo Switch", "PlayStation 4", "Xbox One"],
+        "releaseDate": "2017-02-24",
+        "developer": "Team Cherry",
+        "publisher": "Team Cherry",
+        "rating": {
+          "score": 90,
+          "source": "Metacritic"
+        },
+        "description": "Explore the depths of Hallownest as a silent, mysterious knight in this beautifully hand-drawn Metroidvania-style action game.",
+        "tags": ["action", "adventure", "platformer", "indie"],
+        "price": 14.99,
+        "availability": "available",
+        "coverImage": "https://example.com/hollow_knight_cover.jpg",
+        "reviews": [
+          {
+            "author": "GameSpot",
+            "rating": 10,
+            "comment": "A challenging, atmospheric adventure that rewards exploration."
+          },
+          {
+            "author": "IGN",
+            "rating": 9.5,
+            "comment": "A haunting and rewarding journey through a beautifully crafted world."
+          }
+        ]
+      },
+      {
+        "id": "game009",
+        "title": "Persona 5",
+        "genre": "JRPG",
+        "platforms": ["PlayStation 4"],
+        "releaseDate": "2016-09-15",
+        "developer": "Atlus",
+        "publisher": "Atlus",
+        "rating": {
+          "score": 93,
+          "source": "Metacritic"
+        },
+        "description": "Join the Phantom Thieves as they navigate the real world and a mysterious alternate world to change the hearts of corrupt individuals in this stylish JRPG.",
+        "tags": ["JRPG", "turn-based", "anime", "story-driven"],
+        "price": 59.99,
+        "availability": "available",
+        "coverImage": "https://example.com/persona5_cover.jpg",
+        "reviews": [
+          {
+            "author": "GameSpot",
+            "rating": 10,
+            "comment": "A brilliant mix of social simulation and turn-based combat."
+          },
+          {
+            "author": "IGN",
+            "rating": 9.7,
+            "comment": "One of the most stylish and rewarding RPGs of the generation."
+          }
+        ]
+      },
+      {
+        "id": "game010",
+        "title": "God of War",
+        "genre": "Action-Adventure",
+        "platforms": ["PlayStation 4"],
+        "releaseDate": "2018-04-20",
+        "developer": "Santa Monica Studio",
+        "publisher": "Sony Interactive Entertainment",
+        "rating": {
+          "score": 94,
+          "source": "Metacritic"
+        },
+        "description": "Follow Kratos and his son Atreus as they journey through the Norse realms to scatter the ashes of Kratos' wife, while battling gods and monsters.",
+        "tags": ["action", "adventure", "mythology", "story-driven"],
+        "price": 49.99,
+        "availability": "available",
+        "coverImage": "https://example.com/god_of_war_cover.jpg",
+        "reviews": [
+          {
+            "author": "GameSpot",
+            "rating": 10,
+            "comment": "A phenomenal reinvention of the God of War franchise."
+          },
+          {
+            "author": "IGN",
+            "rating": 10,
+            "comment": "An emotional journey that sets a new bar for action games."
+          }
+        ]
+      },
+      {
+        "id": "game011",
+        "title": "Fortnite",
+        "genre": "Battle Royale",
+        "platforms": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+        "releaseDate": "2017-09-26",
+        "developer": "Epic Games",
+        "publisher": "Epic Games",
+        "rating": {
+          "score": 82,
+          "source": "Metacritic"
+        },
+        "description": "Battle to be the last player or team standing in this free-to-play battle royale game, featuring fast-paced action and building mechanics.",
+        "tags": ["battle royale", "multiplayer", "action", "free-to-play"],
+        "price": 0.00,
+        "availability": "available",
+        "coverImage": "https://example.com/fortnite_cover.jpg",
+        "reviews": [
+          {
+            "author": "GameSpot",
+            "rating": 8,
+            "comment": "A fast-paced and fun battle royale game with creative mechanics."
+          },
+          {
+            "author": "IGN",
+            "rating": 8.5,
+            "comment": "An addictive game with frequent updates and new content."
+          }
+        ]
       }
     ]
   }
