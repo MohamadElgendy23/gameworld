@@ -17,6 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .card-image img {
@@ -44,7 +45,6 @@ body {
 .card-container {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     width: 500px;
     background-color: black;
