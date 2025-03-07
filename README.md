@@ -1,5 +1,7 @@
 # GameWorld
 
+![gameworld](https://github.com/user-attachments/assets/b20b75ec-52a7-4138-af84-9e7d699c4807)
+
 Utilizes HTML, CSS, and JS to build a project called GameWorld. Includes a games.json file including the following information:
 
 1) Games: A list of games, where each game contains:
