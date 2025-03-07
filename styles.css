@@ -1,10 +1,27 @@
 body {
-    background-color: beige;
+    background-color: rgb(28, 136, 231);
     margin: 0;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 75px;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-image {
     display: flex;
-    justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-image img {
+    width: 400px;
+    height: 250px;
 }
 
 .game-cards-wrapper {
@@ -12,4 +29,20 @@ body {
     grid-template-rows: repeat(5, 1fr);
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    padding: 10px;
+    min-height: 100vh;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }

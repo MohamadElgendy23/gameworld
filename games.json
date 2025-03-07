@@ -16,7 +16,7 @@
         "tags": ["open-world", "action", "adventure", "fantasy"],
         "price": 59.99,
         "availability": "available",
-        "coverImage": "https://example.com/zelda_cover.jpg",
+        "coverImage": "https://media.gq.com/photos/58c9b8e5ca736630b47208c5/16:9/w_1280,c_limit/BOTW-Share_icon.jpg",
         "reviews": [
           {
             "author": "GameSpot",
@@ -46,7 +46,7 @@
         "tags": ["RPG", "open-world", "cyberpunk", "action"],
         "price": 49.99,
         "availability": "available",
-        "coverImage": "https://example.com/cyberpunk_cover.jpg",
+        "coverImage": "https://pub-f354ec240bea480db7320bd0e29d972e.r2.dev/sites/2/2023/12/1.-Cyberpunk2077_Ultimate_Edition_PC_Time_To_Get_To_Work-6713dcbddf63d90d29d8-1024x576.jpg",
         "reviews": [
           {
             "author": "The Verge",
@@ -76,7 +76,7 @@
         "tags": ["sandbox", "survival", "multiplayer", "creative"],
         "price": 26.95,
         "availability": "available",
-        "coverImage": "https://example.com/minecraft_cover.jpg",
+        "coverImage": "https://www.pluggedin.com/wp-content/uploads/2020/01/minecraft-review-image-1024x587.jpg",
         "reviews": [
           {
             "author": "Kotaku",
@@ -106,7 +106,7 @@
         "tags": ["platformer", "adventure", "3D", "action"],
         "price": 59.99,
         "availability": "available",
-        "coverImage": "https://example.com/mario_odyssey_cover.jpg",
+        "coverImage": "https://preview.redd.it/rwc3wi2agyl41.jpg?width=640&crop=smart&auto=webp&s=42b2d2315d72f9087dc40cffba8d3660b6a770d8",
         "reviews": [
           {
             "author": "GameSpot",
@@ -136,7 +136,7 @@
         "tags": ["RPG", "action", "fantasy", "open-world"],
         "price": 39.99,
         "availability": "unavailable",
-        "coverImage": "https://example.com/witcher3_cover.jpg",
+        "coverImage": "https://sm.ign.com/ign_za/review/t/the-witche/the-witcher-3-the-wild-hunt-review_wvw4.jpg",
         "reviews": [
           {
             "author": "GameSpot",
@@ -151,32 +151,32 @@
         ]
       },
       {
-        "id": "game006",
-        "title": "Minecraft",
-        "genre": "Sandbox",
-        "platforms": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
-        "releaseDate": "2011-11-18",
-        "developer": "Mojang",
-        "publisher": "Mojang",
+        "id": "game010",
+        "title": "Hades",
+        "genre": "Action Roguelike",
+        "platforms": ["PC", "Nintendo Switch", "PlayStation 4", "Xbox One", "PlayStation 5", "Xbox Series X/S"],
+        "releaseDate": "2020-09-17",
+        "developer": "Supergiant Games",
+        "publisher": "Supergiant Games",
         "rating": {
           "score": 93,
           "source": "Metacritic"
         },
-        "description": "A sandbox game that lets you build, explore, and survive in an infinite world made entirely of blocks.",
-        "tags": ["sandbox", "building", "multiplayer", "survival"],
-        "price": 26.95,
-        "availability": "available",
-        "coverImage": "https://example.com/minecraft_cover.jpg",
+        "description": "A fast-paced action roguelike where you play as Zagreus, the son of Hades, as he attempts to escape the Underworld, battling through procedurally generated levels and facing powerful gods and enemies.",
+        "tags": ["roguelike", "action", "fast-paced", "mythology", "story-driven"],
+        "price": 24.99,
+        "availability": "unavailable",
+        "coverImage": "https://d1lss44hh2trtw.cloudfront.net/assets/article/2020/09/26/hades-review-godlike-roguelike_feature.jpg",
         "reviews": [
           {
             "author": "GameSpot",
             "rating": 10,
-            "comment": "A timeless game that encourages creativity and exploration."
+            "comment": "An addictively fun roguelike with incredible combat and deep storytelling, blending mythology with modern gaming sensibilities."
           },
           {
             "author": "IGN",
             "rating": 9.5,
-            "comment": "Endless fun, solo or with friends."
+            "comment": "A thrilling roguelike that offers relentless action and a compelling narrative with top-tier voice acting and design."
           }
         ]
       },
@@ -196,7 +196,7 @@
         "tags": ["action", "adventure", "open-world", "western"],
         "price": 59.99,
         "availability": "available",
-        "coverImage": "https://example.com/red_dead_redemption2_cover.jpg",
+        "coverImage": "https://www.cnet.com/a/img/resize/d797af24f6114b86902bc06c6ad8ff1d91f08b3b/hub/2018/10/25/776b9111-60ec-4e79-9f16-8372eac0635c/red-dead-redemption-2-20181021172719.jpg?auto=webp&width=1200",
         "reviews": [
           {
             "author": "GameSpot",
@@ -226,7 +226,7 @@
         "tags": ["action", "adventure", "platformer", "indie"],
         "price": 14.99,
         "availability": "unavailable",
-        "coverImage": "https://example.com/hollow_knight_cover.jpg",
+        "coverImage": "https://images.squarespace-cdn.com/content/v1/606d159a953867291018f801/1619987722169-VV6ZASHHZNRBJW9X0PLK/Key_Art_02_layeredjpg.jpg?format=1500w",
         "reviews": [
           {
             "author": "GameSpot",
@@ -256,7 +256,7 @@
         "tags": ["JRPG", "turn-based", "anime", "story-driven"],
         "price": 59.99,
         "availability": "available",
-        "coverImage": "https://example.com/persona5_cover.jpg",
+        "coverImage": "https://assets1.ignimgs.com/2020/03/31/ign-persona5-royal-review-blogroll-1585691940949.jpg",
         "reviews": [
           {
             "author": "GameSpot",
@@ -286,7 +286,7 @@
         "tags": ["action", "adventure", "mythology", "story-driven"],
         "price": 49.99,
         "availability": "available",
-        "coverImage": "https://example.com/god_of_war_cover.jpg",
+        "coverImage": "https://deadline.com/wp-content/uploads/2022/12/God-of-War.jpg",
         "reviews": [
           {
             "author": "GameSpot",
@@ -297,36 +297,6 @@
             "author": "IGN",
             "rating": 10,
             "comment": "An emotional journey that sets a new bar for action games."
-          }
-        ]
-      },
-      {
-        "id": "game011",
-        "title": "Fortnite",
-        "genre": "Battle Royale",
-        "platforms": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
-        "releaseDate": "2017-09-26",
-        "developer": "Epic Games",
-        "publisher": "Epic Games",
-        "rating": {
-          "score": 82,
-          "source": "Metacritic"
-        },
-        "description": "Battle to be the last player or team standing in this free-to-play battle royale game, featuring fast-paced action and building mechanics.",
-        "tags": ["battle royale", "multiplayer", "action", "free-to-play"],
-        "price": 0.00,
-        "availability": "unavailable",
-        "coverImage": "https://example.com/fortnite_cover.jpg",
-        "reviews": [
-          {
-            "author": "GameSpot",
-            "rating": 8,
-            "comment": "A fast-paced and fun battle royale game with creative mechanics."
-          },
-          {
-            "author": "IGN",
-            "rating": 8.5,
-            "comment": "An addictive game with frequent updates and new content."
           }
         ]
       }
