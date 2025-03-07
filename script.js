@@ -19,7 +19,7 @@ function initializeApp() {
     });
 }
 
-// create and display a game card for each game in the html
+// create and display a game card for each game in the dom
 function displayGameCard(game) {
   gameCardsWrapper.innerHTML += `
         <div class="card-container">
