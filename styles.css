@@ -22,15 +22,23 @@ body {
 .card-image img {
     width: 400px;
     height: 250px;
+    border-radius: 5px;
 }
 
 .game-cards-wrapper {
     display: grid;
     grid-template-rows: repeat(5, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 100px;
     padding: 10px;
     min-height: 100vh;
+    justify-self: center;
+}
+
+.label {
+    text-decoration: underline;
+    margin-bottom: 5px;
+    font-weight: bolder;
 }
 
 .card-container {
@@ -38,6 +46,16 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 500px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    padding: 2px;
+}
+
+.card-container:hover {
+    transform: scale(1.02);
 }
 
 .card-info {
@@ -46,3 +64,174 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+
+.card-info .title {
+    width: 300px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.card-info .genre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-info .platforms {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.platforms .platforms-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: square;
+    margin: 0;
+}
+
+.release-date {
+    text-align: center;
+}
+
+.release-date .label {
+    display: block;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.developer {
+    text-align: center;
+}
+
+.developer .label {
+    display: block;
+}
+
+.publisher {
+    text-align: center;
+}
+
+.publisher .label {
+    display: block;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.score {
+    text-align: center;
+}
+
+.score .label {
+    display: block;
+}
+
+.source {
+    text-align: center;
+}
+
+.source .label {
+    display: block;
+}
+
+hr {
+    width: 100%;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2px;
+}
+
+.card-body .description {
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    max-width: 450px;
+}
+
+.card-body .tags {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 1em;
+}
+
+.tags .tag {
+    min-width: 50px;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    padding: 4px;
+}
+
+.price {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.availability {
+    min-width: 50px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 1.5em;
+}
+
+.availability.available {
+    background-color: green;
+}
+
+.availability.unavailable {
+    background-color: red;
+}
+
+.card-reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.card-reviews .review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.review .rating {
+    margin: 0;
+    padding: 7px;
+}
+
+.review .comment {
+    margin-top: 0;
+    text-align: center;
+}
+

@@ -28,30 +28,31 @@ function displayGameCard(game) {
             </div>
             <div class="card-info">
                 <h2 class="title">${game.title}</h2>
-                <p class="genre">${game.genre}</p>
-                <div class="platforms">${game.platforms
+                <p class="genre"><span class="label">Genre:</span>${game.genre}</p>
+                <div class="platforms"><span class="label">Platforms:</span><ul class="platforms-list">${game.platforms
                   .map(
                     (gamePlatform) =>
-                      `<span class="platform">${gamePlatform}</span>`
+                      `<li class="platform">${gamePlatform}</li>`
                   )
-                  .join("")}</div>
-                <p class="release-date">${game.releaseDate}</p>
+                  .join("")}</ul></div>
+                <p class="release-date"><span class="label">Release Date:</span>${game.releaseDate}</p>
                 <div class="company">
-                   <span class="developer">${game.developer}</span> 
-                   <span class="publisher">${game.publisher}</span> 
+                   <span class="developer"><span class="label">Developer:</span>${game.developer}</span> 
+                   <span class="publisher"><span class="label">Publisher:</span>${game.publisher}</span> 
                 </div>
                 <div class="rating">
-                    <span class="score">${game.rating.score}</span>
-                    <span class="source">${game.rating.source}</span>
+                    <span class="score"><span class="label">Rating Score:</span>${game.rating.score}</span>
+                    <span class="source"><span class="label">Rating Source:</span>${game.rating.source}</span>
                 </div>
             </div>
+            <hr />
             <div class="card-body">
                 <p class="description">${game.description}</p>
                 <div class="tags">${game.tags
                   .map((tag) => `<span class="tag">${tag}</span>`)
                   .join("")}</div>
-                <span class="price">${game.price}</span>
-                <span class="${game.availability}">${game.availability}</span>
+                <span class="price">$${game.price}</span>
+                <span class="availability ${game.availability}">${game.availability}</span>
             </div>
             <div class="card-reviews">${game.reviews
               .map(
@@ -59,7 +60,7 @@ function displayGameCard(game) {
                   `<div class="review">
                     <span class="author">${review.author}</span>
                     <span class="rating">${review.rating}</span>
-                    <p class="comment">${review.comment}</p>
+                    <p class="comment">- "${review.comment}"</p>
                   </div>`
               )
               .join("")}</div>
