@@ -1,6 +1,6 @@
-#GameWorld
+# GameWorld
 
-Utilizes HTML, CSS, and JS to build a project called GameWorld. Includes a games.json file including this information:
+Utilizes HTML, CSS, and JS to build a project called GameWorld. Includes a games.json file including the following information:
 
 1) Games: A list of games, where each game contains:
  * id: Unique identifier for the game.
@@ -24,4 +24,4 @@ Utilizes HTML, CSS, and JS to build a project called GameWorld. Includes a games
   * Cyberpunk 2077 has a 72 score on Metacritic, with reviews mentioning both its beautiful world and technical issues.
   * Minecraft is an iconic sandbox game with a high rating, available on many platforms, and praised for its endless creativity. 
 
-Encompasses a game card for each game in a visually appealing manner in order to display this information.
+Encompasses a game card for each game in a visually appealing manner as well as grid format in order to display this information.
