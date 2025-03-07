@@ -25,3 +25,4 @@ Utilizes HTML, CSS, and JS to build a project called GameWorld. Includes a games
   * Minecraft is an iconic sandbox game with a high rating, available on many platforms, and praised for its endless creativity. 
 
 Encompasses a game card for each game in a visually appealing manner as well as grid format in order to display this information.
+
