@@ -215,7 +215,8 @@ hr {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 4px;
+    gap: 10px;
+    margin-bottom: 40px;
 }
 
 .card-reviews .review {
@@ -223,15 +224,27 @@ hr {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 300px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.card-reviews .author {
+    margin-top: 5px;
+    font-weight: bold;
 }
 
 .review .rating {
     margin: 0;
-    padding: 7px;
+    padding: 1px;
 }
 
 .review .comment {
     margin-top: 0;
     text-align: center;
+    font-family: Georgia, serif;
 }
 
