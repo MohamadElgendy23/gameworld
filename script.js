@@ -59,7 +59,7 @@ function displayGameCard(game) {
                 (review) =>
                   `<div class="review">
                     <span class="author">${review.author}</span>
-                    <span class="rating">${review.rating}</span>
+                    <span class="rating">${review.rating}/10</span>
                     <p class="comment">- "${review.comment}"</p>
                   </div>`
               )
