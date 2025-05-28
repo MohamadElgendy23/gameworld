@@ -6,6 +6,8 @@ Utilizes HTML, CSS, and JS to build a project called GameWorld.
 
 https://gameworlddeploy-68zv.vercel.app/
 
+
+
 Includes a games.json file including the following information:
 
 1) Games: A list of games, where each game contains:
